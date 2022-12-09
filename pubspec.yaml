@@ -1,0 +1,40 @@
+name: app
+description: A flutter project for the 'Kvaedi' app
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.1.1+2
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  path_provider: ^2.0.11
+  hive_flutter: ^1.1.0
+  hive_generator: ^1.1.3
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^1.1.1
+  subtitle: ^0.1.0-beta.3
+  fluttertoast: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.0
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/ballads/braestis_kvaedi/
+    - assets/ballads/jallgrimskvaedi/
+    - assets/ballads/olavur_hin_heilagi/
